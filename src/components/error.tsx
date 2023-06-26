@@ -1,11 +1,11 @@
-import React from 'react'
+import { Container } from "./Container";
 
-function error() {
+const Error = () => {
   return (
-    <div>
-      <p>usuario não encontrado</p>
-    </div>
-  )
-}
+    <Container>
+      <p>usuário não encontrado</p>
+    </Container>
+  );
+};
 
-export default error
+export default Error;
