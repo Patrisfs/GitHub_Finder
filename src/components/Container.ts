@@ -7,11 +7,8 @@ export const Container = styled.div`
   align-items: center; /* Centraliza verticalmente */
   flex-direction: column;
   padding-top: 4rem;
-  margin-bottom: 40px;
+  margin: auto;
 
-  div:first-child{
-    width: 400px;
-  }
 
   div{
     background-color: #DAD3D1;
@@ -21,12 +18,13 @@ export const Container = styled.div`
 
   > div{
     box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 5px 5px;
+    width: 400px;
   }
   
   h1{
     text-align: center;
     width: 400px;
     padding-top: 1rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 `;
