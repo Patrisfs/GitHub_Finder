@@ -26,5 +26,6 @@ export const Container = styled.div`
     width: 400px;
     padding-top: 1rem;
     margin-bottom: 15px;
+    font-family:monospace;
   }
 `;

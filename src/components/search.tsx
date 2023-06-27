@@ -16,6 +16,10 @@ const Content = styled.div`
   flex-direction: column;
   padding-top: 4rem;
 
+  h2{
+    font-family:monospace;
+    font-weight: bolder;
+  }
   h2, p{
     padding: 4px;
   }

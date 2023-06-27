@@ -20,6 +20,7 @@ const Info = styled.div`
 
   h2{
     margin-top: 1.1rem;
+    font-family:monospace;
   }
 
   > div div{
@@ -32,7 +33,9 @@ const Info = styled.div`
 
   > div, > div div{
     display: flex;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    width: 200px;
   }
 
   > div p:last-child{
@@ -43,8 +46,12 @@ const Info = styled.div`
     border-radius: 8%;
     text-align: center;
   }
+  > div p{
+    padding: 4px;
+  }
   > p {
     opacity: 0.8;
+    margin-top: 0.5rem;
   }
 `;
 
@@ -56,9 +63,11 @@ const StyledLink = styled(Link)`
   background-color: #f0f0f0;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+  font-family: monospace;
 
   &:hover {
     background-color: #e0e0e0;
+    font-weight: bolder;
   }
 `;
 
